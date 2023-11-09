@@ -5,13 +5,13 @@ import Image from 'next/image'
 
 const Navbar = () => {
   return (
-    <div className='flex'>
+    <div className='flex-row'>
         {/* Link holder */}
-        <div className="hidden md:flex px-40 justify-between text-white">
+        <div className="hidden md:flex flex-row justify-between px-80 pt-10 text-white">
             <Link href="/">Home</Link>
-            <Link href="/">About</Link>
-            <Link href="/">Portfolio</Link>
-            <Link href="/">Contact</Link>
+            <Link href="/about">About</Link>
+            <Link href="/portfolio">Portfolio</Link>
+            <Link href="/contact">Contact</Link>
         </div>
             {/* Hamburger */}
             <div className='p-7 md:hidden'>
