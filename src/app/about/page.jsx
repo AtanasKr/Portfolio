@@ -16,21 +16,22 @@ const About = () => {
         <div className='flex justify-center pt-14 text-white'>
           <Image src="/prof-picture.png" width={200} height={200} />
         </div>
-        <p className='pt-10 text-lg px-20 text-white text-center'>I’ve finished my Master’s in computer and software engineering at Technical University Sofia. My main focus is programming in javascript. I enjoy tackling challenging and mind bending tasks. </p>
+        <p className='pt-10 text-lg px-20 text-white text-center md:ml-20 md:mr-20 font-bold'>I’ve finished my Master’s in computer and software engineering at Technical University Sofia. My main focus is programming in javascript. I enjoy tackling challenging and mind bending tasks. </p>
       </div>
-      <div className='flex justify-center pt-16 hover:opacity-80'><Link href="/about"><Image width={199} height={59} src="/btn-portfolio.png" /></Link></div>
-      <div className='pt-5'>
-        <div className='text-white text-center flex flex-col mt-5 ml-5 mr-5 p-10 bg-slate-800 rounded-3xl '>
+      <div className='flex justify-center pt-16 hover:opacity-80'><Link href="/portfolio"><Image width={200} height={59} src="/btn-portfolio.png" /></Link></div>
+      <h1 className='text-white text-center text-3xl font-bold pt-10'>My road so far.</h1>
+      <div className='pt-5 md:flex md:flex-row justify-center'>
+        <div className='text-white text-center flex flex-col mt-5 ml-5 mr-5 p-10 bg-slate-800 rounded-3xl md:mr-10 md:ml-10'>
           <h1 className='font-bold text-xl'>Diploma in Information Technology, English and Math</h1>
           <p className='pt-4'><strong>Session:</strong> 2013-2018</p>
         </div>
-        <div className='text-white text-center flex flex-col mt-5 ml-5 mr-5 p-10 bg-slate-800 rounded-3xl '>
-          <h1 className='font-bold text-xl'>Diploma in Information Technology, English and Math</h1>
-          <p className='pt-4'><strong>Session:</strong> 2013-2018</p>
+        <div className='text-white text-center flex flex-col mt-5 ml-5 mr-5 p-10 bg-slate-800 rounded-3xl md:mr-10 md:ml-10 '>
+          <h1 className='font-bold text-xl'>Bachelor in Computer and Software Engineering (TU Sofia)</h1>
+          <p className='pt-4'><strong>Session:</strong> 2018-2022</p>
         </div>
-        <div className='text-white text-center flex flex-col mt-5 ml-5 mr-5 p-10 bg-slate-800 rounded-3xl '>
-          <h1 className='font-bold text-xl'>Diploma in Information Technology, English and Math</h1>
-          <p className='pt-4'><strong>Session:</strong> 2013-2018</p>
+        <div className='text-white text-center flex flex-col mt-5 ml-5 mr-5 p-10 bg-slate-800 rounded-3xl md:mr-10 md:ml-10 '>
+          <h1 className='font-bold text-xl'>Master’s in Computer and Software Engineering (TU Sofia)</h1>
+          <p className='pt-4'><strong>Session:</strong> 2022-2023</p>
         </div>
       </div>
       <Footer />
