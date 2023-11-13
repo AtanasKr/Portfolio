@@ -11,8 +11,8 @@ export default function Home() {
       <div className='text-center font-bold text-white md:pt-20'>
         <div className='md:flex flex-row justify-between md:px-40 md:bg-slate-800 mx-20 pt-10 pb-20 rounded-xl'>
           <div className='flex flex-col'>
-            <h1 className='text-6xl pt-14 text-transparent bg-clip-text bg-gradient-to-b from-violet-400 to-purple-700 md:text-left'>This Is Me</h1>
-            <h1 className='text-6xl pt-10 md:text-left'>Atanas Krstev</h1>
+            <h1 className='text-6xl pt-14 text-transparent bg-clip-text bg-gradient-to-b from-violet-400 to-purple-700 md:text-left md:text-4xl'>This Is Me</h1>
+            <h1 className='text-6xl pt-10 md:text-left md:text-4xl'>Atanas Krstev</h1>
           </div>
           <div className='flex justify-center pt-16 hover:opacity-80 md:w-auto md:h-5/6 md:pt-24'><Image width={197} height={69} src="/btn-portfolio.png" /></div>
         </div>

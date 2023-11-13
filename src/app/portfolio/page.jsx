@@ -11,8 +11,8 @@ const Portfolio = () => {
         <h1 className='text-6xl pt-14 text-transparent bg-clip-text bg-gradient-to-b from-violet-400 to-purple-700'>Portfolio</h1>
         <h1 className='text-6xl pt-10'>Latest Projects</h1>
       </div>
-      <div>
-        <div className='flex flex-row text-white bg-slate-800 justify-center mt-5 gap-20 mx-10 rounded-xl py-10 md:mx-[20%] md:gap-64 xl:gap-96'>
+      <div className='pt-5'>
+        <div className='flex flex-row text-white bg-slate-800 justify-center mt-5 gap-20 mx-10 rounded-xl py-10 md:mx-[20%] md:gap-52 xl:gap-96'>
           <div className='flex flex-col gap-7 justify-center'>
             <h1 className='text-xl font-bold mb-4'>Project name</h1>
             <p>Project desc</p>
@@ -21,7 +21,7 @@ const Portfolio = () => {
         </div>
       </div>
       <div>
-        <div className='flex flex-row text-white bg-slate-800 justify-center mt-5 gap-20 mx-10 rounded-xl py-10 md:mx-[20%] md:gap-64 xl:gap-96'>
+        <div className='flex flex-row text-white bg-slate-800 justify-center mt-5 gap-20 mx-10 rounded-xl py-10 md:mx-[20%] md:gap-52 xl:gap-96'>
           <div className='flex flex-col gap-7 justify-center'>
             <h1 className='text-xl font-bold mb-4'>Project name</h1>
             <p>Project desc</p>
@@ -30,7 +30,7 @@ const Portfolio = () => {
         </div>
       </div>
       <div>
-      <div className='flex flex-row text-white bg-slate-800 justify-center mt-5 gap-20 mx-10 rounded-xl py-10 md:mx-[20%] md:gap-64 xl:gap-96'>
+      <div className='flex flex-row text-white bg-slate-800 justify-center mt-5 gap-20 mx-10 rounded-xl py-10 md:mx-[20%] md:gap-52 xl:gap-96'>
         <div className='flex flex-col gap-7 justify-center'>
           <h1 className='text-xl font-bold mb-4'>Project name</h1>
           <p>Project desc</p>
