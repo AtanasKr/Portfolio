@@ -11,9 +11,9 @@ const Hamburger = () => {
         {open&&
         <div className='flex flex-col absolute justify-center items-center text-white p-2 bg-stone-600 rounded-md'>
             <Link className='py-1' href="/">Home</Link>
-            <Link className='py-1' href="/">About</Link>
-            <Link className='py-1' href="/">Portfolio</Link>
-            <Link className='py-1' href="/">Contact</Link>    
+            <Link className='py-1' href="/about">About</Link>
+            <Link className='py-1' href="/portfolio">Portfolio</Link>
+            <Link className='py-1' href="/contact">Contact</Link>    
         </div>}
     </div>
   )

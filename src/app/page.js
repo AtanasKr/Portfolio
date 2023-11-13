@@ -1,6 +1,7 @@
 import Footer from '@/components/Footer'
 import Navbar from '@/components/Navbar'
 import Image from 'next/image'
+import Link from 'next/link'
 
 export default function Home() {
   return (
@@ -17,7 +18,7 @@ export default function Home() {
         </div>
         <h1 className='text-6xl pt-14'>Personal Details</h1>
         <p className='pt-10 text-lg px-20'>I’ve finished my Master’s in computer and software engineering at Technical University Sofia. My main focus is programming in javascript. I enjoy tackling challenging and mind bending tasks. </p>
-        <div className='flex justify-center pt-16 hover:opacity-80'><Image width={199} height={59} src="/btn-details.png" /></div>
+        <div className='flex justify-center pt-16 hover:opacity-80'><Link href="/about"><Image width={199} height={59} src="/btn-details.png" /></Link></div>
       </div>
       <Footer />
     </main>
