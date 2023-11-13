@@ -7,7 +7,7 @@ const Navbar = () => {
   return (
     <div className='flex-row'>
         {/* Link holder */}
-        <div className="hidden md:flex flex-row justify-between px-80 pt-10 text-white">
+        <div className="hidden md:flex md:flex-row justify-between px-40 pt-10 lg:px-80 text-white">
             <Link href="/">Home</Link>
             <Link href="/about">About</Link>
             <Link href="/portfolio">Portfolio</Link>
